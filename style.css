@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    position: relative;
+    background-color: green;
+    display: inline;
+    justify-content: center;
+  }
+
+  ul {
+    background-color: blue;
+    text-align: center;
+    justify-content: center; 
+  }
+
+  nav {
+    position: relative;
+    background-color: red;
+    height: 3vw;
+    justify-content: center;
+  }
