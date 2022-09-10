@@ -1,24 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    position: relative;
-    background-color: green;
-    display: inline;
-    justify-content: center;
-  }
+ul {
+  list-style-type: none;
+  padding: 0px;
+  padding: 20px;
+}
 
-  ul {
-    background-color: blue;
-    text-align: center;
-    justify-content: center; 
-  }
+li {
+  display: inline;
+}
 
-  nav {
-    position: relative;
-    background-color: red;
-    height: 3vw;
-    justify-content: center;
-  }
+li a {
+  color: rgb(170, 38, 38);
+  text-align: center;
+  text-decoration: none;
+}
+
+nav {
+  width: 2000px;
+  height: 100px;
+  background-color: rgb(62, 171, 58);
+}
