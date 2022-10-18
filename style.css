@@ -92,3 +92,7 @@ div.desc {
   justify-content: center;
   align-items: center;
 }
+
+.desc {
+  height:80px;
+}
