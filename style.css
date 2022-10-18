@@ -3,24 +3,55 @@
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0px;
-  padding: 20px;
-}
+body {
 
-li {
-  display: inline;
-}
-
-li a {
-  color: rgb(170, 38, 38);
-  text-align: center;
-  text-decoration: none;
 }
 
 nav {
-  width: 2000px;
-  height: 100px;
-  background-color: rgb(62, 171, 58);
+  padding: 20px;
+  background-color: rgb(43, 43, 43);
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  float:left;
+}
+
+li {
+  display:inline;
+  padding-top: 30px;
+  font-size: 20px;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover{
+  color: rgb(246, 246, 246);
+}
+
+.projects-main{
+  min-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: red;
+  height: 80vh;
+  width:80%;
+  padding: 50px;
+}
+
+#project-window {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin: 50px;
 }
