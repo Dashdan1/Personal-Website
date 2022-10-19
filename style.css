@@ -96,3 +96,14 @@ div.desc {
 .desc {
   height:80px;
 }
+
+#headshot{
+  height: 300px;
+  width: 300px;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
