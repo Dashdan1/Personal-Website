@@ -28,7 +28,7 @@ li {
   padding-top: 30px;
   font-size: 20px;
   padding-left: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(25, 25, 25);
 }
 
@@ -47,6 +47,8 @@ a {
 a:hover{
   color: rgb(246, 246, 246);
 }
+
+
 
 .projects-main{
   min-width: 700px;
@@ -95,6 +97,10 @@ div.desc {
   justify-content: center;
   align-items: center;
   height: 700px;
+}
+
+#projects-header {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 #projects{
