@@ -25,7 +25,7 @@ li {
   display:inline;
   padding-top: 30px;
   font-size: 20px;
-  padding: 30px;
+  padding-left: 30px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #888;
 }
@@ -33,7 +33,6 @@ li {
 a {
   text-decoration: none;
   color: lightgray;
-  background-color: #888;
 }
 
 a:hover{
@@ -79,6 +78,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
 }
 
 .gallery-collection {
@@ -102,11 +102,17 @@ div.desc {
 
 /* Header */
 #name-header{
-  background-color:rgb(87, 87, 87) ;
+  background-color:black ;
+  color: red;
   display:grid;
-  justify-content: center;
+  margin-left: 100px;
+  margin-top: 50px;
   align-items: center;
   position: relative;
+}
+
+#name-header:hover{
+  color: white;
 }
 
 /* Image Container */
@@ -118,11 +124,12 @@ div.desc {
 
 /* Image */
 #headshot{
-  height: 300px;
-  width: 300px;
-  margin-top: 200px;
+  height: 473px;
+  width: 348px;
+  margin-top: 80px;
   float: left;
-  margin-left: 10px;
+  margin-left: 90px;
+  
 }
 
 /* Text */
@@ -132,6 +139,41 @@ div.desc {
   float: right;
   margin-top: 200px;
   font-size: 30px;
-  margin-right: 10px;
+  margin-right: -140px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-main {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+#resume{
+  font-size: 40px;
+  text-decoration: none;
+  background-color: black;
+}
+
+#daniel{
+  color: red;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  width: 220px;
+}
+
+#daniel:hover {
+  color: white;
+}
+
+.contact{
+  display: flex;
+  width: 60vh;
+  height: 60vh;
+  align-items: center;
+  margin-left: 500px;
+  font-size: 40px;
 }
