@@ -103,7 +103,6 @@ div.desc {
 /* Header */
 #name-header{
   background-color:black ;
-  color: red;
   display:grid;
   margin-left: 100px;
   margin-top: 50px;
@@ -151,9 +150,9 @@ div.desc {
 #daniel{
   color: red;
   font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:monospace;
   text-decoration: none;
-  width: 220px;
+  width: 250px;
 }
 
 #daniel:hover {
@@ -181,6 +180,7 @@ div.desc {
 #nameis{
   color: white;
   font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 #description{
